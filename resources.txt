@@ -8,3 +8,7 @@ Gulp
 http://gulpjs.com/
 
 Learn Code:
+
+Neat Color Scheme source for webpages
+http://coolors.co/browser
+
