@@ -1,1 +1,1 @@
-This project is a compliation of helpful development and design resources we have found useful for beginning developers and designers.
+This project is a compilation of helpful development and design resources we have found useful for beginning developers and designers.
