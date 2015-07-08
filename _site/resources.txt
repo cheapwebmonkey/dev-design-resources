@@ -1,0 +1,16 @@
+Color:
+http://cssdesignawards.com/articles/color-the-web-color-tools-for-designers/227/
+
+Free Books:
+http://speckyboy.com/2015/01/12/free-web-design-ebooks-2014/
+
+Gulp
+http://gulpjs.com/
+
+Learn Code:
+
+Neat Color Scheme source for webpages
+http://coolors.co/browser
+
+HTML Color picker
+http://www.w3schools.com/tags/ref_colorpicker.asp
