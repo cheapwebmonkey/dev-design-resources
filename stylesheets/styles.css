@@ -1,22 +1,46 @@
-.wrapper{
-  padding: 2%;
+a, h1, h2, h3, h4, h5, h6, p {
+font-family: 'Open Sans', sans-serif;
+color: white;
 }
+
+a:link {
+	font-weight: bold;
+}
+
+a:hover {
+	color: #CCFF99;
+}
+
+.wrapper{
+	background: black;
+	padding: 2%;
+}
+
 .center {
 	text-align: center;
 }
 
 #learnCode {
-	background: black;
+	border-radius: 10px 10px 0 0;
+	background: #334779;
+	padding-bottom: 50px;
 }
-#learnCode h1, #learnCode h2, #learnCode h3, #learnCode h4, #learnCode h5, #learnCode h6, #learnCode a {
-	color: white;
-}
+
 #learnCode p {
-	color: white;
+	margin: 25px;
+}
+
+#practiceCode {
+	background: #266A6D;
+	padding-bottom: 50px;
+}
+
+#practiceCode p {
 	margin: 25px;
 }
 
 img {
+	margin: 25px;
 	border-radius: 10px;
 	border: solid 5px white;
 	opacity: 1;
