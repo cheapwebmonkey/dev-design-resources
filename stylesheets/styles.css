@@ -1,0 +1,30 @@
+.center {
+	text-align: center;
+}
+
+#learnCode {
+	background: black;
+}
+#learnCode h1, #learnCode h2, #learnCode h3, #learnCode h4, #learnCode h5, #learnCode h6, #learnCode a {
+	color: white;
+}
+#learnCode p {
+	color: white;
+	margin: 25px;
+}
+
+img {
+	border-radius: 10px;
+	border: solid 5px white;
+	opacity: 1;
+	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
+
+img:hover {
+	opacity: 0.5;
+	transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}
