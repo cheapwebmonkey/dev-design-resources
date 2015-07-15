@@ -14,3 +14,6 @@ http://coolors.co/browser
 
 HTML Color picker
 http://www.w3schools.com/tags/ref_colorpicker.asp
+
+Brackets (an open-source text editor that understands the web)
+http://brackets.io
