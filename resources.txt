@@ -13,4 +13,7 @@ Neat Color Scheme source for webpages
 http://coolors.co/browser
 
 HTML Color picker
-http://www.w3schools.com/tags/ref_colorpicker.asp
+http://www.w3schools.com/tags/ref_colorpicker.aspi
+
+Brackets (A modern, open source text editor that understands web design)
+http://brackets.io
