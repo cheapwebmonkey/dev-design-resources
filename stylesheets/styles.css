@@ -1,3 +1,6 @@
+/* Paletton color scheme: #266A6D;
+*/
+
 body {
 	background-image: url("../images/dark_embroidery.png");
 }
@@ -21,9 +24,6 @@ li {
 
 .wrapper{
 	padding: 2%;
-	-webkit-box-shadow: 1px 2px 38px 14px rgba(0,0,0,0.75);
--moz-box-shadow: 1px 2px 38px 14px rgba(0,0,0,0.75);
-box-shadow: 1px 2px 38px 14px rgba(0,0,0,0.75);
 }
 
 .center {
@@ -44,11 +44,13 @@ box-shadow: 1px 2px 38px 14px rgba(0,0,0,0.75);
 	margin: 5%;
 }
 
+
 /* Header Section */
 #header {
+	display: block;
 	border-radius: 10px 10px 0 0;
 	background: #B5743F;
-	padding-bottom: 5%;
+	padding: 0 0 15% 0;
 	-webkit-box-shadow: inset 0px -20px 15px -10px rgba(0,0,0,0.75);
 	-moz-box-shadow: inset 0px -20px 15px -10px rgba(0,0,0,0.75);
 	box-shadow: inset 0px -20px 15px -10px rgba(0,0,0,0.75);
@@ -64,9 +66,20 @@ box-shadow: 1px 2px 38px 14px rgba(0,0,0,0.75);
 
 
 /* Learn Code section */
+#learnCodeTab {
+	display: inline-block;
+	margin-top: -63px;
+	background: #334779;
+	border-radius: 55%% 15% 0 2.5%;
+	-webkit-box-shadow: -10px -7px 12px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: -10px -7px 12px 2px rgba(0,0,0,0.75);
+	box-shadow: -10px -7px 12px 2px rgba(0,0,0,0.75);
+
+}
+
 #learnCode {
 	background: #334779;
-	padding-bottom: 5%;
+	padding: 6.5%;
 }
 
 #learnCode p {
@@ -105,9 +118,12 @@ box-shadow: 1px 2px 38px 14px rgba(0,0,0,0.75);
 
 /* Default image rules -- Will need to be changed in the future -- */
 img {
+	-webkit-box-shadow: 0px 0px 44px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 44px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 44px 1px rgba(0,0,0,0.75);
 	margin: 25px;
 	border-radius: 10px;
-	border: solid 5px white;
+	border: solid 3px #1a1a1a;
 	opacity: 1;
 	transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
