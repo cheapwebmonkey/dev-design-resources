@@ -20,25 +20,49 @@ a:hover {
 	text-align: center;
 }
 
+#learnCode a, #practiceCode a, #colorTools a {
+	font-size: 1.5em;
+}
+#learnCode h3, #practiceCode h3, #colorTools h3 {
+	font-size: 2.5em;
+	font-weight: bold;
+	margin: 5%;
+}
+
+/* Learn Code section */
 #learnCode {
 	border-radius: 10px 10px 0 0;
 	background: #334779;
-	padding-bottom: 50px;
+	padding-bottom: 5%;
 }
 
 #learnCode p {
 	margin: 25px;
 }
 
+
+/* Practice Code section */
 #practiceCode {
 	background: #266A6D;
-	padding-bottom: 50px;
+	padding-bottom: 5%;
 }
 
 #practiceCode p {
 	margin: 25px;
 }
 
+/* Color Tools section */
+#colorTools {
+	background: #B58E3F;
+	padding-bottom: 5%;
+}
+
+#colorTools p {
+	margin: 25px;
+}
+
+
+/* Default image rules -- Will need to be changed in the future -- */
 img {
 	margin: 25px;
 	border-radius: 10px;
