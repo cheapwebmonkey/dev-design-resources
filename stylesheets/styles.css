@@ -1,6 +1,10 @@
+body {
+	background-image: url("../images/dark_embroidery.png");
+}
 a, h1, h2, h3, h4, h5, h6, p {
 font-family: 'Open Sans', sans-serif;
 color: white;
+text-shadow: 1px 1px 1px #000;
 }
 
 a:link {
@@ -11,15 +15,26 @@ a:hover {
 	color: #CCFF99;
 }
 
+li {
+	list-style-type: none;
+}
+
 .wrapper{
-	background: black;
 	padding: 2%;
+	-webkit-box-shadow: 1px 2px 38px 14px rgba(0,0,0,0.75);
+-moz-box-shadow: 1px 2px 38px 14px rgba(0,0,0,0.75);
+box-shadow: 1px 2px 38px 14px rgba(0,0,0,0.75);
 }
 
 .center {
 	text-align: center;
 }
 
+.right {
+	text-align: right;
+	padding: 0 50px 0 0;
+	margin: 75px 0 0 0;
+}
 #learnCode a, #practiceCode a, #colorTools a {
 	font-size: 1.5em;
 }
@@ -29,9 +44,27 @@ a:hover {
 	margin: 5%;
 }
 
+/* Header Section */
+#header {
+	border-radius: 10px 10px 0 0;
+	background: #B5743F;
+	padding-bottom: 5%;
+	-webkit-box-shadow: inset 0px -20px 15px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px -20px 15px -10px rgba(0,0,0,0.75);
+	box-shadow: inset 0px -20px 15px -10px rgba(0,0,0,0.75);
+}
+
+#header ul li {
+	display: inline-block;
+	font-size: 2em;
+}
+#header img {
+	border: none;
+}
+
+
 /* Learn Code section */
 #learnCode {
-	border-radius: 10px 10px 0 0;
 	background: #334779;
 	padding-bottom: 5%;
 }
@@ -45,7 +78,11 @@ a:hover {
 #practiceCode {
 	background: #266A6D;
 	padding-bottom: 5%;
+	-webkit-box-shadow: inset 0px 20px 15px -10px rgba(0,0,0,0.75), inset 0px -20px 15px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 20px 15px -10px rgba(0,0,0,0.75), inset 0px -20px 15px -10px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 20px 15px -10px rgba(0,0,0,0.75), inset 0px -20px 15px -10px rgba(0,0,0,0.75);
 }
+
 
 #practiceCode p {
 	margin: 25px;
@@ -55,6 +92,10 @@ a:hover {
 #colorTools {
 	background: #B58E3F;
 	padding-bottom: 5%;
+	-webkit-box-shadow: inset 0px -20px 15px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px -20px 15px -10px rgba(0,0,0,0.75);
+	box-shadow: inset 0px -20px 15px -10px rgba(0,0,0,0.75);
+
 }
 
 #colorTools p {
