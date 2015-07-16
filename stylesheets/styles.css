@@ -1,6 +1,13 @@
+/* Paletton color scheme: #266A6D;
+*/
+
+body {
+	background-image: url("../images/dark_embroidery.png");
+}
 a, h1, h2, h3, h4, h5, h6, p {
 font-family: 'Open Sans', sans-serif;
 color: white;
+text-shadow: 1px 1px 1px #000;
 }
 
 a:link {
@@ -11,8 +18,11 @@ a:hover {
 	color: #CCFF99;
 }
 
+li {
+	list-style-type: none;
+}
+
 .wrapper{
-	background: black;
 	padding: 2%;
 }
 
@@ -20,29 +30,100 @@ a:hover {
 	text-align: center;
 }
 
-#learnCode {
+.right {
+	text-align: right;
+	padding: 0 50px 0 0;
+	margin: 75px 0 0 0;
+}
+#learnCode a, #practiceCode a, #colorTools a {
+	font-size: 1.5em;
+}
+#learnCode h3, #practiceCode h3, #colorTools h3 {
+	font-size: 2.5em;
+	font-weight: bold;
+	margin: 5%;
+}
+
+
+/* Header Section */
+#header {
+	display: block;
 	border-radius: 10px 10px 0 0;
+	background: #B5743F;
+	padding: 0 0 15% 0;
+	-webkit-box-shadow: inset 0px -20px 15px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px -20px 15px -10px rgba(0,0,0,0.75);
+	box-shadow: inset 0px -20px 15px -10px rgba(0,0,0,0.75);
+}
+
+#header ul li {
+	display: inline-block;
+	font-size: 2em;
+}
+#header img {
+	border: none;
+}
+
+
+/* Learn Code section */
+#learnCodeTab {
+	display: inline-block;
+	margin-top: -63px;
 	background: #334779;
-	padding-bottom: 50px;
+	border-radius: 55%% 15% 0 2.5%;
+	-webkit-box-shadow: -10px -7px 12px 2px rgba(0,0,0,0.75);
+	-moz-box-shadow: -10px -7px 12px 2px rgba(0,0,0,0.75);
+	box-shadow: -10px -7px 12px 2px rgba(0,0,0,0.75);
+
+}
+
+#learnCode {
+	background: #334779;
+	padding: 6.5%;
 }
 
 #learnCode p {
 	margin: 25px;
 }
 
+
+/* Practice Code section */
 #practiceCode {
 	background: #266A6D;
-	padding-bottom: 50px;
+	padding-bottom: 5%;
+	-webkit-box-shadow: inset 0px 20px 15px -10px rgba(0,0,0,0.75), inset 0px -20px 15px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 20px 15px -10px rgba(0,0,0,0.75), inset 0px -20px 15px -10px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 20px 15px -10px rgba(0,0,0,0.75), inset 0px -20px 15px -10px rgba(0,0,0,0.75);
 }
+
 
 #practiceCode p {
 	margin: 25px;
 }
 
+/* Color Tools section */
+#colorTools {
+	background: #B58E3F;
+	padding-bottom: 5%;
+	-webkit-box-shadow: inset 0px -20px 15px -10px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px -20px 15px -10px rgba(0,0,0,0.75);
+	box-shadow: inset 0px -20px 15px -10px rgba(0,0,0,0.75);
+
+}
+
+#colorTools p {
+	margin: 25px;
+}
+
+
+/* Default image rules -- Will need to be changed in the future -- */
 img {
+	-webkit-box-shadow: 0px 0px 44px 1px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 44px 1px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 44px 1px rgba(0,0,0,0.75);
 	margin: 25px;
 	border-radius: 10px;
-	border: solid 5px white;
+	border: solid 3px #1a1a1a;
 	opacity: 1;
 	transition: opacity .25s ease-in-out;
    -moz-transition: opacity .25s ease-in-out;
