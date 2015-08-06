@@ -46,6 +46,11 @@ li {
 
 
 /* Header Section */
+#mHeading {
+	display: block;
+	margin: 5% 0;
+}
+
 #header {
 	display: block;
 	border-radius: 10px 10px 0 0;
@@ -59,9 +64,6 @@ li {
 #header ul li {
 	display: inline-block;
 	font-size: 2em;
-}
-#header img {
-	border: none;
 }
 
 
